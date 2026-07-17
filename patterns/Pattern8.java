@@ -1,17 +1,20 @@
 /*
-     *    
-   ***
-  *****
- ******* 
-*********
-      *
-     ***
-    *****
-   *******
-  *********
- ***********
-*************
 
+***********
+*********
+ ******* 
+  *****  
+   ***   
+    *    
+***************
+*************
+ *********** 
+  *********  
+   *******   
+    *****    
+     ***     
+      *   
+      * 
 
 */
 import java.util.Scanner;
@@ -35,17 +38,17 @@ public class Pattern8 {
 
         for(int i = n; i >= 0; i--){
             // 1st Inner loop for Spaces
-            for(int j =  n-i-1 ; j > 0; j--){
+            for(int s =  n-i-1 ; s > 0; s--){
                 System.out.print(" ");
             }
 
             // 2nd Inner loop for the Stars
-            for(int k = 2*i+1; k > 0; k--){
+            for(int p = 2*i+1; p > 0; p--){
                 System.out.print("*");
             }
 
             //  3rd Inner loop for the Spaces
-            for(int m = n-i-1; m > 0; m--){
+            for(int q = n-i-1; q > 0; q--){
                 System.out.print(" ");
             }
             System.out.println();
