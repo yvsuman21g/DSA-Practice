@@ -13,6 +13,7 @@ public class tableOfNumbers {
             System.out.println(i * j);
             j++;
         }
+        sc.close();
 
     }
 
