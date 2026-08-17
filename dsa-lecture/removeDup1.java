@@ -27,6 +27,7 @@ System.out.println("Enter the array elements");
 
         int result = remoDupli(arr, n);
         System.out.println("new array is: " + result);
+         sc.close();
     }
 
     public static int remoDupli(int[] arr, int n){
@@ -39,5 +40,7 @@ System.out.println("Enter the array elements");
             }
         }
         return x;
+        
     }
+   
 }

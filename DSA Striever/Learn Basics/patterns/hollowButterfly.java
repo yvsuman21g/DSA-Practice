@@ -69,7 +69,7 @@ public class hollowButterfly {
             }
             System.out.println();
         }
-
+sc.close();
 
     }
 }
