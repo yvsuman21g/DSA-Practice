@@ -12,7 +12,7 @@ public class primeNumber {
        
     // Check the divisibility of sqaure root // 9 - sqaure root of 3 
        for(int i = 2; i <= Math.sqrt(num); i++){ 
-        or 
+        // or 
         // for(int i = 2; i < num; i++){ / best practice is above 1
             if(num % i == 0){
                 isPrime = false;
