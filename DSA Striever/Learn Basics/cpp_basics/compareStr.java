@@ -23,6 +23,7 @@ class compareStr {
         } else {
             System.out.print("String are not equal");
         }
-
+        sc.close();
+        newSc.close();
     }
 }
