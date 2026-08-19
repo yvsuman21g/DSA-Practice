@@ -37,6 +37,6 @@ public class primeNumber {
         int n = sc.nextInt();
 
         printPrimeNumber(n);
-
+        sc.close();
     }
 }
