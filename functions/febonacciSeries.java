@@ -7,11 +7,11 @@ public class febonacciSeries {
         }
 
         int prev2 = 0, prev1 = 1;
-        System.out.print(prev2 + " " + prev1 + " ");
+        System.out.print(prev2 + " " + prev1+ " ");
 
         for (int i = 2; i < num; i++) {
             int curr = prev2 + prev1;
-            System.out.print(curr + " ");
+            System.out.print(curr+" ");
             prev2 = prev1;
             prev1 = curr;
         }
