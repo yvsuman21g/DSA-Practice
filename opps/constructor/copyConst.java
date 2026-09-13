@@ -1,6 +1,6 @@
 // 3 - Copy Constructor - 
 
-class Student {
+class CopyStudent {
     String name;
     int age;
 
@@ -9,12 +9,12 @@ class Student {
         System.out.println(this.age);
     }
 
-    Student(Student s2) {
+    CopyStudent(CopyStudent s2) {
         this.name = s2.name;
         this.age = s2.age;
     }
 
-    Student() {
+    CopyStudent() {
 
     }
 
@@ -24,19 +24,15 @@ public class copyConst {
     public static void main(String args[]) {
         // Objects or Constructor -
 
-        Student s1 = new Student();
+        CopyStudent s1 = new CopyStudent();
         s1.name = "Ram";
         s1.age = 22;
 
         s1.printInfo();
 
-        // Create another constructor -
-<<<<<<< HEAD
-        Student s2 = new Student(s1); // copy constructor
+        // Create another constructor 
+        CopyStudent s2 = new CopyStudent(s1); // copy constructor
         s2.printInfo();
-=======
-        Student s2 = new Student(s1); // copy
->>>>>>> origin/main
 
     }
 }

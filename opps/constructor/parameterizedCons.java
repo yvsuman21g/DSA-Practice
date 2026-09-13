@@ -1,21 +1,16 @@
 // 2 -  Parameterized constructor -
-class Student {
-    String name;
-    int age;
+class ParameterizedStudent {
+    private String name;
+    private int age;
 
-    Student(String name, int age){
-     this.name = name;
-     this.age = age;
-     System.out.println("Student name is: "+name+ " and age is: "+age);
+    public ParameterizedStudent(String name, int age) {
+        this.name = name;
+        this.age = age;
+        System.out.println("Student name is: " + this.name + " and age is: " + this.age);
     }
 }
 public class parameterizedCons {
     public static void main(String args[]){
-<<<<<<< HEAD
-        new Student("Krishna", 18);
-=======
-        Student s1 = new Student("Krishna", 18);
->>>>>>> origin/main
+        new ParameterizedStudent("Krishna", 18);
     }
 }
- 
