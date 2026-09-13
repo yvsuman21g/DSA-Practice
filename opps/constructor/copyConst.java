@@ -31,7 +31,12 @@ public class copyConst {
         s1.printInfo();
 
         // Create another constructor -
+<<<<<<< HEAD
+        Student s2 = new Student(s1); // copy constructor
+        s2.printInfo();
+=======
         Student s2 = new Student(s1); // copy
+>>>>>>> origin/main
 
     }
 }
