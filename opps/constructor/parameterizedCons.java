@@ -11,7 +11,11 @@ class Student {
 }
 public class parameterizedCons {
     public static void main(String args[]){
+<<<<<<< HEAD
         new Student("Krishna", 18);
+=======
+        Student s1 = new Student("Krishna", 18);
+>>>>>>> origin/main
     }
 }
  
