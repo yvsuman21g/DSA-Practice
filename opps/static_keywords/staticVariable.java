@@ -24,6 +24,6 @@ public class staticVariable {
 
         Student student1 = new Student();
         student1.name ="Madhav";
-        System.out.println(student1.name+ " school name is: "+student1.school);
+        System.out.println(student1.name + " school name is: " + Student.school);
     }
 }

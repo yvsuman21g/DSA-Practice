@@ -28,6 +28,6 @@ public class reverseNumberTriangle {
             }
             System.out.println();
         }
-        sc.nextInt();
+        sc.close();
     }
 }

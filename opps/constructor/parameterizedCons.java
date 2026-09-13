@@ -11,7 +11,7 @@ class Student {
 }
 public class parameterizedCons {
     public static void main(String args[]){
-        Student s1 = new Student("Krishna", 18);
+        new Student("Krishna", 18);
     }
 }
  
