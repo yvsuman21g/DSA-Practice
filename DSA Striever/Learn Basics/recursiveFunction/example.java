@@ -15,5 +15,6 @@ public class example {
         System.out.print("Enter the user Input: ");
         int num = sc.nextInt();
         fun(num); // input 3 
+        sc.close();
     }
 }
